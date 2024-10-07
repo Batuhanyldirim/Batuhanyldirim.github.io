@@ -105,4 +105,20 @@
     margin-bottom:4px;
   }
   
-  
+  @media (max-width: 768px) {
+    #topbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .headerName {
+        position: static;
+        text-align: center;
+        align-self: center;
+        margin-top: 30px;
+        margin-left: 10px; /* Add some space between the image and text */
+    }
+}
